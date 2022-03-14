@@ -51,13 +51,31 @@ button:hover {
     background-color: rgba(0, 132, 255, 0.7) ;
 }
 
-.about-me  {display: flex; 
-    height: 20%;
-    width: 75%;
-    flex-wrap: wrap;
+.container-about-me { 
+    display: flex;
+}
+
+.main-column {
+    flex: 2;
+    padding: 10px;
+}
+
+.side-bar {
+    flex: 1;
     padding: 20px;
 }
 
-#interests {align-self: flex-end;}
+.about-me {
+    padding: 5px;
+}
 
+#list { padding-left: 15px;}
 
+.avatar {
+    height: 180px; width: 180px; flex: 0.5;
+}
+
+@media (max-width: 800px) {
+    .container-about-me {
+      flex-direction: column;
+    } }
