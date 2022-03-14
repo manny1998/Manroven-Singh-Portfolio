@@ -75,6 +75,32 @@ button:hover {
     height: 180px; width: 180px; flex: 0.5;
 }
 
+#work-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images img {
+    height: 260px;
+    width: 320px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#homework {
+    height: 500px;
+    width: 80%;
+
+}
+
 @media (max-width: 800px) {
     .container-about-me {
       flex-direction: column;
