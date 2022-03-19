@@ -65,9 +65,15 @@ button:hover {
     padding: 20px;
 }
 
+.side-bar:hover h4 {color:rgb(0, 183, 255);}
+
+.side-bar:hover li {color:rgb(0, 183, 255);}
+
 .about-me {
     padding: 5px;
 }
+
+.container-about-me .main-column:hover .about-me  {color:rgb(0, 183, 255)}
 
 #list { padding-left: 15px;}
 
@@ -118,6 +124,15 @@ button:hover {
 
 }
 
+.contact-details:hover h2 {color:rgb(0, 183, 255);}
+
+.contact-items:hover li{color:rgb(0, 183, 255);}
+
+.footer {
+    text-align: center;
+}
+
+.footer:hover h4 {color:rgb(0, 183, 255);}
 
 @media (max-width: 800px) {
     .container-about-me {
