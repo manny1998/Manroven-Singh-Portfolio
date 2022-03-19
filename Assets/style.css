@@ -93,13 +93,17 @@ button:hover {
     width: 320px;
     margin: 10px;
     box-sizing: border-box;
+    box-shadow: 0 0 20px 2px rgb(0, 183, 255);
 }
 
-#homework {
-    height: 500px;
-    width: 80%;
-
+.images .portfolio-zoom:hover {
+    box-shadow: 0 0 20px 2px rgb(255, 0, 0);
+    height: 360px;
+    width: 420px;
+    margin: 10px;
 }
+
+
 
 @media (max-width: 800px) {
     .container-about-me {
