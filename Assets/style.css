@@ -10,6 +10,7 @@
  color: snow;
 }
 
+
 /* font design being chosen for selected element, including removal of underline*/
 li, a, button, p {
     font-family: 'Roboto Slab', serif;
@@ -80,40 +81,6 @@ button:hover {background-color: rgba(0, 132, 255, 0.7);}
 .avatar {
     height: 180px; width: 180px; flex: 0.5;
 }
-
-/* work portfolio layout bein designed using flexboxes line 85-97*/
-#work-portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    flex-wrap: wrap;
-}
-
-.images {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-/* image dimensions and shadow being applied*/
-.images img {
-    height: 260px;
-    width: 320px;
-    margin: 10px;
-    box-sizing: border-box;
-    box-shadow: 0 0 20px 2px rgb(0, 183, 255);
-}
-
-/*hover feature so image increase in size and shadow changes colour*/
-.images .portfolio-zoom:hover {
-    box-shadow: 0 0 20px 2px rgb(255, 0, 0);
-    height: 360px;
-    width: 420px;
-    margin: 10px;
-}
-
-.portfolio-description {display:flex; flex-wrap: wrap;}
 
 /* layout design for contact section from line 119-132*/
 #contact-details {
